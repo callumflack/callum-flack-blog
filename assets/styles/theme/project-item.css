@@ -1,0 +1,31 @@
+.project,
+.project-filter {
+  display: block;
+  text-decoration: initial;
+}
+
+.project {
+  // border-top: 1px solid var(--c-rule);
+  // padding-top: var(--s-4);
+  // padding-bottom: var(--s-4);
+
+  &:first-of-type {
+    // border-top: initial;
+  }
+}
+
+.project-filter {
+  border-bottom: 1px solid var(--c-text);
+  padding-top: 0;
+  padding-bottom: calc(0.666 * var(--s-3));
+
+  & a {
+    margin-left: var(--s-3);
+  }
+}
+
+/* use the SVG filter that's secreted on work/index */
+/* reused & scoped in LazyImage */
+.project:hover img {
+  filter: url("#gray");
+}

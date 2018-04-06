@@ -1,0 +1,7 @@
+{
+  "name": "callumflackdesign",
+  "alias": ["callumflack.design", "www.callumflack.design"],
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

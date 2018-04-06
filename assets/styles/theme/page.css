@@ -1,0 +1,25 @@
+/* 
+
+  Page themes
+
+ */
+
+.page-index {
+  // background-color: #fbf06f;
+}
+
+.page-index .promote {
+  position: relative;
+  z-index: 1;
+
+  & h1,
+  & p,
+  & a {
+    // border-color: var(--c-white);
+    // color: var(--c-white);
+  }
+
+  & a {
+    text-shadow: initial;
+  }
+}

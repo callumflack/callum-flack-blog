@@ -1,0 +1,181 @@
+/*
+  
+  Variables
+
+  Notes on css custom properties & postcss-custom-properties:
+  Single variables within media queries are a great idea:
+  https://philipwalton.com/articles/why-im-excited-about-native-css-variables/
+  …but postcss-custom-properties limits vars to the `:root`:
+  "Since we do not know the DOM in the context of this plugin, we cannot produce safe output." —> https://github.com/postcss/postcss-custom-properties
+  
+  :root { --s-title: 20px; }
+
+  @media (min-width: 80em) {
+    :root { --s-title: 40px; }
+  }
+
+*/
+
+/* eslint-disable */
+/* prettier-ignore */
+
+:root {
+  @custom-media --sm (min-width: 512px);
+  @custom-media --md (min-width: 768px);
+  @custom-media --lg (min-width: 1280px);
+  @custom-media --xl (min-width: 1600px);
+
+ /*
+
+    Sizes
+
+  */
+
+  --space: 1rem;
+  --grid-gutter: calc(2 * var(--space));
+
+  --container: calc(600px + (2 * var(--grid-gutter)));
+  --container-md: calc(960px + (2 * var(--grid-gutter)));
+  --container-sm: calc(480px + (2 * var(--grid-gutter)));
+  --container-rg-img: 800px;
+  
+  --s-0: 0;
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 1rem;
+  --s-3a: 1.25rem;
+  --s-3b: 1.5rem;
+  --s-4: 2rem;
+  --s-5: 4rem;
+  --s-6: 7rem;
+  --s-7: 10rem;
+  
+  --rs-1: 0.25rem;
+  --rs-2: 0.5rem;
+  --rs-3: 1rem;
+  --rs-3a: 1.25rem;
+  --rs-4: 2.5rem;
+  --rs-5: 5rem;
+  --rs-6: 9rem;
+  --rs-7: 13rem;
+  
+  --border-radius: 4px;
+  --field-spacing: 1rem 1.25rem;
+  --inlineBlockChildrenSpace: var(--space);
+
+  /* 
+    
+    Colors
+  
+   */
+   
+  --c-brand: #0095ff;
+  --c-brandHover: #00ffff;
+  --c-brandLight: #00ffff;
+  --c-highlight: rgba(255, 235, 0, 0.25);
+  --c-highlight: #FCF7C9;
+  --c-highlight: #47caf5;
+
+  --c-black: black;
+  --c-dark: #171515;
+  --c-ash: #24292e;
+  --c-text: var(--c-ash);
+  --c-text: #111;
+  --c-textLight: #999;
+  --c-gray: #aaa;
+  --c-border: #e5e5e5;
+  --c-rule: #d5d5d5;
+  --c-rule: #eaeaea;
+  --c-device: #e7e7e7;
+  --c-neutral: #eee;
+  --c-bg: #f2f2f2;
+  --c-bg: #fafafa;
+  --c-white: white;
+  
+  --c-success: #ff3700;
+  --c-warning: #ff3700;
+  --c-danger: #ff3700;
+
+  /* 
+  
+    Typefaces
+  
+   */
+
+  --ff-text-regular: "Regular";
+  --ff-text-regular-italic: "RegularItalic";
+  --ff-text-medium: "Medium";
+  --ff-text-bold: "Bold";
+
+  --ff-meta: "Meta";
+  --ff-title: "Title";
+  
+  --ff-button: var(--ff-text-regular);
+
+  --ff-stack-serif: Georgia, "Times New Roman", Times, serif;
+  --ff-stack-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* 
+  
+    Font sizes
+    For your thoughts: http://type-scale.com/
+   
+   */
+
+  --fs-text-unit: 1.125;
+
+  --fs-text: calc(1em * var(--fs-text-unit));
+  --fs-text-meta: calc(1em * var(--fs-text-unit));
+  --fs-heading: calc(1.6875em * var(--fs-text-unit));
+
+  /* 
+
+    Font weights
+
+   */
+
+  --fw-light: 200;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;  
+
+  /* 
+  
+    Font leading (line-height) and font tracking (letter-spacing)
+   
+   */
+  
+  --ft-text: -0.0025em;
+  --ft-meta: 0.00625em;
+  --ft-caps: 0.1em;
+  --ft-heading: -0.0025em;
+  --ft-super: -0.005em;
+
+  --fl-text: 1.5;
+
+  --ft-tight: -0.005em;
+  --ft-regular: 0;
+  --ft-loose: 0.01em;
+
+  --fl-tight: 1.15;
+  --fl-regular: 1.4;
+  --fl-loose: 1.7;
+
+  /* 
+  
+    Transitions 
+  
+   */
+
+  --transition-duration: 0.2s;
+  --transition-delayed: 0.4s;
+  --transition-debounce: 2.5s;
+
+  /* 
+  
+    Project theme 
+  
+   */
+
+  --fixedMenuHeight: 89px;
+}
