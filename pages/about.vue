@@ -15,7 +15,7 @@ article
       :src="page.heroImage"
     )
   main.block--pb6(role="main")
-    nuxtent-body(:body="page.body")
+    nuxtent-body.TypeScope(:body="page.body")
 </template>
 
 <script>
@@ -42,7 +42,15 @@ export default {
           hid: "description",
           name: "description",
           content: `${this.page.title} – ${this.page.lede}`
-        }
+        },
+        // Twitter Card
+        { name: "twitter:title", content: `${this.page.title}` },
+        {
+          name: "twitter:description",
+          content: `${this.page.title} – ${this.page.lede}`
+        },
+        { name: "twitter:image", content: `${this.page.heroImage}` },
+        { name: "twitter:image:alt", content: "Callum Flack" }
       ]
     };
   },

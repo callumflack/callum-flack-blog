@@ -1,5 +1,5 @@
 {
-  "name": "patternworks-2018",
+  "name": "callum-flack-blog",
   "version": "1.0.0",
   "description": "Nuxt.js project",
   "author": "Callum Flack <callumflack@gmail.com>",
@@ -15,7 +15,7 @@
   "dependencies": {
     "@nuxtjs/axios": "4.3.1",
     "@nuxtjs/google-tag-manager": "1.1.0",
-    "nuxt": "1.1.0",
+    "nuxt": "1.0.0",
     "nuxtent": "1.4.1"
   },
   "devDependencies": {

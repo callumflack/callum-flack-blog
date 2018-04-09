@@ -53,18 +53,18 @@ export default {
       scrollState: 0,
       // Menu list
       menuLinks: [
-        {
-          label: "Archive",
-          link: "/blog"
-        },
+        // {
+        //   label: "Archive",
+        //   link: "/blog"
+        // },
         {
           label: "About",
           link: "/about"
-        },
-        {
-          label: "Now",
-          link: "/now"
         }
+        // {
+        //   label: "Now",
+        //   link: "/now"
+        // }
       ]
     };
   },

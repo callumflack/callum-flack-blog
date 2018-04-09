@@ -5,10 +5,8 @@ Vue.use(Router)
 
 const _28b0aaa2 = () => import('../pages/index.vue' /* webpackChunkName: "pages/index" */).then(m => m.default || m)
 const _71f4d7f3 = () => import('../pages/now.vue' /* webpackChunkName: "pages/now" */).then(m => m.default || m)
-const _1ded48d0 = () => import('../pages/index.orig.vue' /* webpackChunkName: "pages/index.orig" */).then(m => m.default || m)
-const _6820602c = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
 const _7a8b61d0 = () => import('../pages/blog/index.vue' /* webpackChunkName: "pages/blog/index" */).then(m => m.default || m)
-const _198a85b4 = () => import('../pages/_page.orig.vue' /* webpackChunkName: "pages/_page.orig" */).then(m => m.default || m)
+const _6820602c = () => import('../pages/about.vue' /* webpackChunkName: "pages/about" */).then(m => m.default || m)
 const _5468ef4b = () => import('../pages/_page.vue' /* webpackChunkName: "pages/_page" */).then(m => m.default || m)
 
 
@@ -52,24 +50,14 @@ export function createRouter () {
 			name: "now"
 		},
 		{
-			path: "/index.orig",
-			component: _1ded48d0,
-			name: "index.orig"
-		},
-		{
-			path: "/about",
-			component: _6820602c,
-			name: "about"
-		},
-		{
 			path: "/blog",
 			component: _7a8b61d0,
 			name: "blog"
 		},
 		{
-			path: "/:page.orig",
-			component: _198a85b4,
-			name: "page.orig"
+			path: "/about",
+			component: _6820602c,
+			name: "about"
 		},
 		{
 			path: "/:page",

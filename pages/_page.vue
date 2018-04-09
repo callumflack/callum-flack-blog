@@ -1,6 +1,7 @@
 <template lang="pug">
 div
   c-post(
+    v-if="page.published"
     pageView
     :link="page.permalink"
     :image="page.heroImage"
@@ -13,6 +14,7 @@ div
     :tweet="page.tweet"
   )
   c-postslist(
+    v-if="posts.published"
     :posts="posts"
   )
 </template>
@@ -34,7 +36,18 @@ export default {
           hid: "description",
           name: "description",
           content: `${this.page.title} – ${this.page.lede}`
-        }
+        },
+        // Twitter Card
+        { name: "twitter:title", content: `${this.page.title}` },
+        {
+          name: "twitter:description",
+          content: `${this.page.title} – ${this.page.lede}`
+        },
+        {
+          name: "twitter:image",
+          content: `${this.page.heroImage}`
+        },
+        { name: "twitter:image:alt", content: "A blog post image by Callum Flack" }
       ]
     };
   },

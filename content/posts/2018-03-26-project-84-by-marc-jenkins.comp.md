@@ -2,7 +2,7 @@
 section: Blog
 title: Project 84 by Marc Jenkins
 lede: If you want to know how to make software that connects with and works for real people, there's no substitute for shaking hands with the invisible demons programmers wrestle with.
-published: February 9, 2018
+published: false
 updated: false
 tweet: https://twitter.com/callumflack
 ---

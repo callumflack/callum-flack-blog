@@ -8,17 +8,13 @@ module.exports = {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
-        name: "google-site-verification",
-        content: "HN9v-wB-PoQjHk1CGpr5YVG9VUNrcOaOjHACfG3SSSI"
-      },
-      {
         hid: "description",
         name: "description",
-        content: "Callum Flack digital design & development – Cairns, Australia"
+        content: "Callum Flack's blog"
       },
-      { hid: "twitter:card", name: "twitter:card", content: "summary" },
-      { hid: "twitter:site", name: "twitter:site", content: "@callumflack" },
-      { hid: "twitter:creator", name: "twitter:creator", content: "@callumflack" }
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:site", content: "@callumflack" },
+      { name: "twitter:creator", content: "@callumflack" }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
@@ -60,7 +56,7 @@ module.exports = {
     /*{ src: "~/plugins/vue-slick", ssr: false },
     "~/plugins/vue-fixed-header"*/
   ],
-  modules: ["nuxtent", ["@nuxtjs/google-tag-manager", { id: "GTM-KT9HZJ8" }]],
+  modules: ["nuxtent" /*["@nuxtjs/google-tag-manager", { id: "GTM-KT9HZJ8" }]*/],
   axios: {
     credentials: false
   },
@@ -71,8 +67,7 @@ module.exports = {
       // https://github.com/nuxt-community/nuxtent-module/issues/104
       "/",
       "/about",
-      "/work",
-      "/blog"
+      "/now"
     ]
   },
   router: {

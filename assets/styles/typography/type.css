@@ -19,6 +19,11 @@ blockquote p em,
   line-height: var(--fl-text);
 }
 
+.TypeScope em {
+  font-family: var(--ff-text-regular-italic), var(--ff-stack-sans);
+  font-style: italic;
+}
+
 /* 
   -------------------------------------------------
   
@@ -176,8 +181,8 @@ blockquote {
 
 blockquote p {
   border-left: 1px solid;
-  border-color: var(--c-border);
-  color: var(--c-textLight);
+  border-color: var(--c-textLight);
+  // color: var(--c-textLight);
   font-family: var(--ff-text-regular-italic), var(--ff-stack-sans);
   padding-left: var(--s-3a);
 
@@ -186,7 +191,7 @@ blockquote p {
   }
 
   &:before {
-    content: "“";
+    // content: "“";
     display: block;
     position: absolute;
     transform: translate3d(-100%, 0, 0);

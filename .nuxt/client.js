@@ -197,11 +197,9 @@ async function render (to, from, next) {
   // nextCalled is true when redirected
   let nextCalled = false
   const _next = path => {
-    if (from.path === path.path && this.$loading.finish) this.$loading.finish()
-    if (from.path !== path.path && this.$loading.pause) this.$loading.pause()
+    if(this.$loading.finish) this.$loading.finish()
     if (nextCalled) return
     nextCalled = true
-    _lastPaths = getMatchedComponents(from).map((Component, i) => compile(from.matched[i].path)(from.params))
     next(path)
   }
 
@@ -329,12 +327,12 @@ async function render (to, from, next) {
       return Promise.all(promises)
     }))
 
+    _lastPaths = Components.map((Component, i) => compile(to.matched[i].path)(to.params))
+
+    if(this.$loading.finish) this.$loading.finish()
+
     // If not redirected
-    if (!nextCalled) {
-      if(this.$loading.finish) this.$loading.finish()
-      _lastPaths = Components.map((Component, i) => compile(to.matched[i].path)(to.params))
-      next()
-    }
+    if (!nextCalled) next()
 
   } catch (error) {
     if (!error) error = {}
@@ -588,9 +586,6 @@ async function mountApp(__app) {
     }
 
     // Push the path and then mount app
-    router.push(path, () => mount(), (err) => {
-      if (!err) return mount()
-      console.error(err)
-    })
+    router.push(path, () => mount(), (err) => console.error(err))
   })
 }

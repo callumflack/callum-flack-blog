@@ -8,7 +8,7 @@
       time.u-block.Meta.c-textLight(:date-time="date") {{ published }}
     
     no-ssr
-      nuxtent-body(:body="body")
+      nuxtent-body.TypeScope(:body="body")
 
     .HeadingSpace(v-if="pageView")
       hr
@@ -31,7 +31,7 @@ export default {
   },
   props: {
     post: Boolean,
-    pageView: Boolean,
+    pageView: String,
     link: String,
     heroImage: String,
     title: String,

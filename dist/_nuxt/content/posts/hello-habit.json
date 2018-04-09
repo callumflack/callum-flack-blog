@@ -1,0 +1,21 @@
+{
+  "section": "Blog",
+  "title": "Hello, habit",
+  "lede": "On how I will stop being \"goal perfect\" to the point of writing paralysis and instead aim for a daily habit of writing by blogging. Keep drafting until I get somewhere. I'll make it a habits, not a goal.",
+  "heroImage": "/images/favicon.png",
+  "published": "April 8, 2018",
+  "tweet": "https://twitter.com/callumflack",
+  "meta": {
+    "index": 1,
+    "fileName": "2018-04-08-hello-habit.comp.md",
+    "section": "/",
+    "dirName": "/posts"
+  },
+  "date": "2018-04-08",
+  "path": "/hello-habit",
+  "permalink": "/hello-habit",
+  "anchors": [],
+  "body": {
+    "relativePath": "./posts/2018-04-08-hello-habit.comp.md"
+  }
+}

@@ -2,6 +2,7 @@
 div
   c-post(
     v-for="post in posts"
+    v-if="post.published"
     :key="post.permalink"
     :link="post.permalink"
     :image="post.heroImage"
