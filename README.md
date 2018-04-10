@@ -1,6 +1,6 @@
-# Callum Flack Design
+# Callum Flack's Blog
 
-Portfolio and blog.
+I write a blog to think through the things I find interesting.
 
 ## Build Setup
 
