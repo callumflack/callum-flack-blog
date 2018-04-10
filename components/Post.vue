@@ -1,51 +1,48 @@
 <template lang="pug">
-  article.block--mb6
-    //- c-pageheading(:title="title")
-    header.block--matchFixedMenu.block--pb5(role="banner")
+  article.Article
+    header.block--pb5(role="banner")
       h1.Title
-        span(v-if="pageView") {{ title }}
-        nuxt-link.u-linkClean(v-else, :to="link") {{ title }}
-      time.u-block.Meta.c-textLight(:date-time="date") {{ published }}
-    
-    no-ssr
-      nuxtent-body.TypeScope(:body="body")
-
-    .HeadingSpace(v-if="pageView")
-      hr
-      p.Text.c-textLight(v-if="updated") Updated: {{ updated }}
-      p.Text.c-textLight(v-if="note", v-html="note")
-      .block--mt6(v-if="tweet")
-        //- p.Meta.m-b0.u-textCenter Comments?
-        p.Meta.u-textCenter
-          a.u-linkClean.icon-targetblank(:href="tweet", target="_blank") Comments? Twitter
+        nuxt-link(:to="link") {{ title }}
+      time.u-block.Meta.c-textLight(:date-time="date") {{ date | moment("MMMM Do, YYYY") }}
+    main(role="main")
+      no-ssr
+        nuxtent-body(:body="body")
 </template>
-
 
 <script>
 import PageHeading from "~/components/PageHeading.vue";
+// https://github.com/brockpetrie/vue-moment
+import moment from "vue-moment";
+// import moment from 'moment';
 
 export default {
   name: "post",
   components: {
-    "c-pageheading": PageHeading
+    "c-pageheading": PageHeading,
+    moment
   },
   props: {
     post: Boolean,
-    pageView: String,
     link: String,
     heroImage: String,
     title: String,
     lede: String,
     body: Object,
-    published: String,
     date: String,
-    updated: Boolean,
+    published: Boolean,
     note: String,
     tweet: String
   }
+  // https://forum.vuejs.org/t/how-to-format-date-for-display/3586/4
+  // filters: {
+  //   formateDate: function (value) {
+  //     if (value) {
+  //       return moment(String(value)).format('MM/DD/YYYY hh:mm')
+  //     }
+  //   }
+  // }
 };
 </script>
-
 
 <style scoped>
 @import "../assets/styles/variables.css";

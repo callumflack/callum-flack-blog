@@ -24,14 +24,16 @@ I've lived in and worked around in London, Melbourne, Sydney and Brisbane, all f
 
 <!-- “While I was there, I was just gathering images and names, and ideas and rhythms, and I was storing all of these things … in my mind somewhere. And when it was time to sit down and write songs, when I reached into the attic to see what I was gonna write about, that’s what was there. I just felt a strong passion toward the discovery of going there, and it opened my eyes, and all my senses were overwhelmed by the feeling of that place. When I sat down to write songs, that’s all I could think of…” — Robbie Robertson’s writing process -->
 
-In my spare time, I collect vinyl records from every diaspora of recorded music. Finding the uncommon on forgotten records is a lesson in noticing wonder that I take with me everywhere. Some people even know me for the series of annual soul 45 mixes I used to do, called <a target="_blank" href="https://sites.google.com/site/coloronetear/">The Way I See It</a>.
+In my spare time, I collect vinyl records from every diaspora of recorded music. Finding the uncommon on forgotten records is a lesson in noticing wonder that I take with me everywhere. I used to do a series of annual soul 45 mixes called <a target="_blank" href="https://sites.google.com/site/coloronetear/">The Way I See It</a>, which a few collectors have been kind about.
 
-Current maxim: _<a target="_blank" href="https://twitter.com/callumflack/status/970509881034686465">optimise for interesting</a>_.
+<!-- Here's what I'm <nuxt-link to="/now">doing now</nuxt-link>. -->
+
+My current operating maxim is: _<a target="_blank" href="https://twitter.com/callumflack/status/970509881034686465">optimise for interesting</a>_.
 
 <!-- ## Why blog? -->
 
 ## Get in touch
 
-callumflack at gmail dot com<br>
-<a class="icon-targetblank" target="_blank" href="https://twitter.com/callumflack">Twitter</a><br>
-<a class="icon-targetblank" target="_blank" href="https://www.instagram.com/callumflack/">Instagram</a><br>
+* callumflack at gmail dot com
+* <a class="icon-targetblank" target="_blank" href="https://twitter.com/callumflack">Twitter</a>
+* <a class="icon-targetblank" target="_blank" href="https://www.instagram.com/callumflack/">Instagram</a><br>

@@ -37,14 +37,17 @@ li {
 
   */
 
-ol {
-  list-style-type: decimal;
+ol,
+ul {
   padding-left: 1.25em;
 }
 
+ol {
+  list-style-type: decimal;
+}
+
 ul {
-  list-style-type: none;
-  padding-left: 1em;
+  list-style-type: square;
 }
 
 li {
@@ -77,4 +80,8 @@ li + li {
 li p {
   // font-size: calc((18 / (var(--fs-text-unit) * 16)) * var(--fs-text)) !important;
   margin-left: var(--s-2);
+}
+
+.AboutScope li + li {
+  margin-top: 0;
 }

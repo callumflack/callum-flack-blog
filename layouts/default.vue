@@ -1,9 +1,10 @@
 <template lang="pug">
   div(:class="currentPageClass")
     c-menu
-    main.Page.block--pb6(role="main")
+    .Page.block--py7
       .container
         nuxt
+        c-footer
 </template>
 
 <script>
@@ -29,18 +30,9 @@ export default {
 .Page {
   background-color: var(--c-bg);
   min-height: 100vh;
-  padding-top: var(--fixedMenuHeight);
+  // padding-top: var(--fixedMenuHeight);
   position: relative;
   z-index: 3;
-}
-
-.footer-spacer {
-  display: none;
-  height: 100vh;
-
-  @media (--md) {
-    display: block;
-  }
 }
 
 .page-enter-active {

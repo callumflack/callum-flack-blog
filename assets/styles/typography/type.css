@@ -10,18 +10,11 @@ p,
 ul,
 .Text,
 .Text--meta,
-blockquote p em,
-.TypeScope h3,
-.TypeScope h2 {
+blockquote p em {
   font-size: var(--fs-text);
   font-weight: 400;
   letter-spacing: var(--ft-text);
   line-height: var(--fl-text);
-}
-
-.TypeScope em {
-  font-family: var(--ff-text-regular-italic), var(--ff-stack-sans);
-  font-style: italic;
 }
 
 /* 
@@ -36,6 +29,7 @@ blockquote p em,
 
 h1,
 h2,
+h3,
 .Heading,
 .Subheading {
   font-family: var(--ff-text-regular), var(--ff-stack-sans);
@@ -64,7 +58,7 @@ h3,
   & a:hover,
   & a:active {
     color: var(--c-brand);
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -75,6 +69,10 @@ h3,
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+
+.Meta--isParagraph {
+  line-height: 1.75;
 }
 
 /* 
@@ -121,6 +119,14 @@ h6,
   }
 }
 
+.FooterSpace {
+  padding-top: calc(3 * var(--s-3));
+
+  @media (--md) {
+    padding-top: calc(3 * var(--s-3));
+  }
+}
+
 blockquote {
   margin-top: calc(1.5 * var(--s-3));
   margin-bottom: calc(1.5 * var(--s-3));
@@ -134,22 +140,20 @@ blockquote {
   }
 }
 
-.Button + .Button {
-  margin-top: var(--s-2);
-
-  @media (--lg) {
-    margin-top: var(--s-2);
-  }
-}
-
 /* 
   -------------------------------------------------
 
-  Blog markdown theme
+  Post markdown theme
 
   -------------------------------------------------
  */
 
+em {
+  font-family: var(--ff-text-regular-italic), var(--ff-stack-sans);
+  font-style: italic;
+}
+
+/* PARA within posts? Nah */
 .BlogScope strong {
   // font-family: var(--ff-text-regular), var(--ff-stack-sans);
   // font-weight: 500;
@@ -184,6 +188,7 @@ blockquote p {
   border-color: var(--c-textLight);
   // color: var(--c-textLight);
   font-family: var(--ff-text-regular-italic), var(--ff-stack-sans);
+  font-style: italic;
   padding-left: var(--s-3a);
 
   @media (--sm) {
@@ -199,12 +204,35 @@ blockquote p {
 
   & p {
     border: initial;
+    font-family: var(--ff-text-regular), var(--ff-stack-sans);
+    font-style: normal;
     padding: initial;
   }
+}
+
+.Footer blockquote p {
+  border: initial;
+  font-style: normal;
+  padding: initial;
 }
 
 blockquote p em {
   display: table;
   /* resetting ems before applying font sizing: */
   font-size: calc((16 / (var(--fs-text-unit) * 16)) * var(--fs-text)) !important;
+}
+
+/*
+  -------------------------------------------------
+
+  tweet embed
+
+  -------------------------------------------------
+ */
+
+.twitter-tweet {
+  // margin: calc(1.5 * var(--s-3)) auto !important;
+  margin-top: calc(1.5 * var(--s-3)) !important;
+  margin-bottom: calc(1.5 * var(--s-3)) !important;
+  padding-left: var(--s-3a);
 }

@@ -135,6 +135,19 @@
   }
 }
 
+.Article + .Article,
+.block--mt7 {
+  margin-top: var(--s-5);
+
+  @media (--md) {
+    margin-top: var(--s-6);
+  }
+
+  @media (--lg) {
+    margin-top: var(--s-7);
+  }
+}
+
 .block--mt6 {
   margin-top: var(--s-4);
 
@@ -164,6 +177,18 @@
 
   @media (--lg) {
     margin-top: var(--s-4);
+  }
+}
+
+.block--mb7 {
+  margin-bottom: var(--s-5);
+
+  @media (--md) {
+    margin-bottom: var(--s-6);
+  }
+
+  @media (--lg) {
+    margin-bottom: var(--s-7);
   }
 }
 

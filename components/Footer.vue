@@ -1,15 +1,14 @@
 <template lang="pug">
-  footer.footer(role="contentinfo")
-    c-menu
+  footer.Footer.block--mt7(role="contentinfo")
+    hr
+    blockquote
+      p.Meta.Meta--isParagraph.c-textLight
+        | Eventually, everything connects — people, ideas, objects. 
+        span.u-lg-lineBreak The quality of the connections is the key to quality per se.<br>— Charles Eames
 </template>
 
 <script>
-import Menu from "~/components/Menu.vue";
-
 export default {
-  components: {
-    "c-menu": Menu
-  },
   computed: {
     currentPageClass: function() {
       return `page-${this.$store.state.currentPage}`;
@@ -21,21 +20,8 @@ export default {
 <style lang="postcss">
 @import "../assets/styles/variables.css";
 
-.footer {
-  /* align-items: flex-end; */
-  /* display: flex; */
-  height: 100vh;
-  opacity: 1;
-  left: 0;
-  position: fixed;
-  top: 0;
-  transition: opacity 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-  width: 100vw;
-  z-index: 1;
-  -webkit-backface-visibility: hidden;
-}
-
-.footer > * {
-  width: 100%;
+.FooterRule {
+  // background-color: var(--c-text);
+  // height: 4px;
 }
 </style>

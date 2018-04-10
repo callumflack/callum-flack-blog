@@ -1,6 +1,6 @@
 <template lang="pug">
 article
-  header.block--matchFixedMenu.block--pb6(role="banner")
+  header.block--pb5(role="banner")
     c-lazyimage(
       v-if="page.heroInCloudinary"
       project
@@ -14,8 +14,8 @@ article
       local
       :src="page.heroImage"
     )
-  main.block--pb6(role="main")
-    nuxtent-body.TypeScope(:body="page.body")
+  main(role="main")
+    nuxtent-body.AboutScope(:body="page.body")
 </template>
 
 <script>

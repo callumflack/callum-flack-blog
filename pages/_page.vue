@@ -1,18 +1,25 @@
 <template lang="pug">
 div
   c-post(
-    v-if="page.published"
-    pageView
     :link="page.permalink"
     :image="page.heroImage"
     :title="page.title"
     :body="page.body"
     :date="page.date"
-    :published="page.published"
-    :updated="page.updated"
     :note="page.note"
     :tweet="page.tweet"
   )
+
+  .HeadingSpace.block--mb7
+    div(v-if="page.note")
+      p.Text.c-textLight.m-b0 ∞
+      p.Text.c-textLight(v-html="page.note")
+    hr
+    .block--mt7(v-if="page.tweet")
+      p.Meta.u-textCenter
+        a.u-linkClean.icon-targetblank(:href="page.tweet", target="_blank") 
+          | Comments? Twitter
+
   c-postslist(
     v-if="posts.published"
     :posts="posts"
@@ -43,10 +50,10 @@ export default {
           name: "twitter:description",
           content: `${this.page.title} – ${this.page.lede}`
         },
-        {
-          name: "twitter:image",
-          content: `${this.page.heroImage}`
-        },
+        // {
+        //   name: "twitter:image",
+        //   content: `${this.page.heroImage}`
+        // },
         { name: "twitter:image:alt", content: "A blog post image by Callum Flack" }
       ]
     };

@@ -9,6 +9,7 @@
 .u-linkClean:hover,
 .u-linkClean:focus,
 .u-linkClean:active {
+  background-image: none !important;
   text-decoration: none !important;
 }
 

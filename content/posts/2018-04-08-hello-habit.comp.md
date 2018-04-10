@@ -1,9 +1,9 @@
 ---
-section: Blog
 title: Hello, habit
 lede: On how I will stop being "goal perfect" to the point of writing paralysis and instead aim for a daily habit of writing by blogging. Keep drafting until I get somewhere. I'll make it a habits, not a goal.
 heroImage: /images/favicon.png
-published: April 8, 2018
+published: true
+note: Updated 2018-04-10
 tweet: https://twitter.com/callumflack
 ---
 
@@ -19,4 +19,4 @@ The only constant is change. If everything changes once we act, so does our goal
 
 But before we can even start to think about any map versus terrain arguments, we should be, at the very least, _walking_.
 
-Pick something, keep going.
+Choose a direction, start walking.

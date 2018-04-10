@@ -14,7 +14,12 @@ module.exports = {
       },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@callumflack" },
-      { name: "twitter:creator", content: "@callumflack" }
+      { name: "twitter:creator", content: "@callumflack" },
+      {
+        name: "twitter:creator",
+        content:
+          "https://res.cloudinary.com/pw-img-cdn/image/upload/v1523345070/okok/favicon.png"
+      }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
@@ -55,8 +60,9 @@ module.exports = {
   plugins: [
     /*{ src: "~/plugins/vue-slick", ssr: false },
     "~/plugins/vue-fixed-header"*/
+    "~/plugins/vue-moment"
   ],
-  modules: ["nuxtent" /*["@nuxtjs/google-tag-manager", { id: "GTM-KT9HZJ8" }]*/],
+  modules: ["nuxtent", ["@nuxtjs/google-tag-manager", { id: "GTM-N5QW77G" }]],
   axios: {
     credentials: false
   },

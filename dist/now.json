@@ -1,7 +1,0 @@
-{
-  "name": "callumflackblog",
-  "alias": ["callumflack.blog", "www.callumflack.blog"],
-  "env": {
-    "NODE_ENV": "production"
-  }
-}
