@@ -3,7 +3,22 @@
     .FlexEmbed(:class="[{ 'figure--frame': frame }]")
       .FlexEmbed-ratio.device-ratio
       .FlexEmbed-content
-        video.device-position(autoplay, loop, :poster="poster", ref="videoref")
+        iframe.device-position(
+          v-if="externalSrc"
+          width="100%" 
+          height="100%" 
+          :src="src" 
+          frameborder="0" 
+          allow="autoplay; encrypted-media" 
+          allowfullscreen
+        )
+        video.device-position(
+          v-else
+          autoplay
+          loop
+          :poster="poster"
+          ref="videoref"
+        )
           source(
             :src="src",
             type="video/mp4"
@@ -37,7 +52,8 @@ export default {
           "device--ipad": this.ipad,
           "device--ipadLandscape": this.ipadLandscape,
           "device--laptop": this.laptop,
-          "device--desktop": this.desktop
+          "device--desktop": this.desktop,
+          "device--16by9": this.monitorRatio
         }
       ];
     },
@@ -83,7 +99,9 @@ export default {
     ipad: Boolean,
     laptop: Boolean,
     desktop: Boolean,
+    monitorRatio: Boolean,
     poster: String,
+    externalSrc: Boolean,
     src: String,
     reverseOverlay: Boolean,
     reverseButton: Boolean
@@ -196,6 +214,10 @@ export default {
 
 .device--desktop .device-ratio {
   padding-bottom: 52.0833333%;
+}
+
+.device--16by9 .device-ratio {
+  padding-bottom: 56.25%;
 }
 
 .device--home {

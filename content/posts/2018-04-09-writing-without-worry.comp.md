@@ -2,7 +2,7 @@
 title: Writing without worry
 lede: How do you allow yourself to cultivate a habit? How does one just be curious without worrying about turning shit into gold? You have to be OK with writing some “curious shit”!
 published: true
-tweet: https://twitter.com/callumflack
+tweet: https://twitter.com/callumflack/status/983612094900682753
 ---
 
 Habits are more effective than goals because once you start towards a goal, everything changes, including the goal. It’s hard to keep syncing real actions against an imaginary future. It’s more effective to focus on the habit of doing and allow daily outcomes to generate new information to act on.

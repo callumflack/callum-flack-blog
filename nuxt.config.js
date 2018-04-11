@@ -16,7 +16,7 @@ module.exports = {
       { name: "twitter:site", content: "@callumflack" },
       { name: "twitter:creator", content: "@callumflack" },
       {
-        name: "twitter:creator",
+        name: "twitter:image",
         content:
           "https://res.cloudinary.com/pw-img-cdn/image/upload/v1523345070/okok/favicon.png"
       }

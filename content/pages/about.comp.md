@@ -16,7 +16,7 @@ I learned to code websites in 2010 so that I could gain more design control. Thi
 
 <!-- I think (and design) mostly in words, but I remember things—like 45 record labels—mostly in colours and images. -->
 
-I've lived in and worked around in London, Melbourne, Sydney and Brisbane, all for five years or more. Since 2015, my wife, our young family and I have lived in <a class="icon-targetblan" target="_blank" href="https://www.instagram.com/p/BXbsNdrAt-v">Cairns, Australia</a>.
+I've lived in and worked in London, Melbourne, Sydney and Brisbane, all for five years or more. Since 2015, my wife, our young family and I have lived in <a class="icon-targetblan" target="_blank" href="https://www.instagram.com/p/BXbsNdrAt-v">Cairns, Australia</a>.
 
 <!-- ## Locations -->
 

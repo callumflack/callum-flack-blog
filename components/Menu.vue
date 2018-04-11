@@ -75,7 +75,7 @@ export default {
 
       // Do nothing if scroll position is above the window
       // Handles iOS bounce scrolling
-      if (this.scrollState < 0) {
+      if (this.scrollState === 0) {
         home();
       }
 

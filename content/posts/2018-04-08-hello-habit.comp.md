@@ -3,8 +3,8 @@ title: Hello, habit
 lede: On how I will stop being "goal perfect" to the point of writing paralysis and instead aim for a daily habit of writing by blogging. Keep drafting until I get somewhere. I'll make it a habits, not a goal.
 heroImage: /images/favicon.png
 published: true
-note: Updated 2018-04-10
-tweet: https://twitter.com/callumflack
+note: Updated April 10th, 2018
+tweet: https://twitter.com/callumflack/status/983305117939089409
 ---
 
 Since January 10 this year I've eaten almost nothing containing whole grains. This is the first time in my life I've ever dieted, and it's made a big positive impact on my daily energy. If I had made a deal with myself to merely reduce my whole grain intake, I doubt I'd have felt the difference enough to continue the habit change. Going cold turkey helped me trick my rational mind into playing long enough to feel the difference.

@@ -69,6 +69,7 @@ h1 a:active,
 
 .Meta .icon-targetblank:after {
   font-size: 100%;
+  top: 0;
 }
 
 /* 

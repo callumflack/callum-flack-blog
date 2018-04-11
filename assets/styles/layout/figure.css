@@ -41,12 +41,12 @@
 }
 
 .figure--project {
-  margin-top: var(--s-5);
-  margin-bottom: var(--s-5);
+  // margin-top: var(--s-5);
+  // margin-bottom: var(--s-5);
 
   @media (--md) {
-    margin-top: var(--s-6);
-    margin-bottom: var(--s-6);
+    // margin-top: var(--s-6);
+    // margin-bottom: var(--s-6);
   }
 }
 
