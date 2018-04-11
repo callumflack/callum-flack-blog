@@ -3,14 +3,13 @@
     .FlexEmbed(:class="[{ 'figure--frame': frame }]")
       .FlexEmbed-ratio.device-ratio
       .FlexEmbed-content
-        iframe.device-position(
-          v-if="externalSrc"
+        iframe(
+          v-if="videoId"
           width="100%" 
           height="100%" 
-          :src="src" 
+          type="text/html"
+          :src="this.youtubeUrl" 
           frameborder="0" 
-          allow="autoplay; encrypted-media" 
-          allowfullscreen
         )
         video.device-position(
           v-else
@@ -76,7 +75,9 @@ export default {
   },
   data() {
     return {
-      isActive: false
+      isActive: false,
+      // https://github.com/nuxt-community/nuxtent-module/blob/master/test/e2e/scenarios/component/fixtures/components/youtube.vue
+      youtubeUrl: `https://www.youtube.com/embed/${this.videoId}?autoplay=0`
     };
   },
   methods: {
@@ -102,6 +103,7 @@ export default {
     monitorRatio: Boolean,
     poster: String,
     externalSrc: Boolean,
+    videoId: String,
     src: String,
     reverseOverlay: Boolean,
     reverseButton: Boolean
