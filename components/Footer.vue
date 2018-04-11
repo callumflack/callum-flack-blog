@@ -2,9 +2,9 @@
   footer.Footer.block--mt7(role="contentinfo")
     hr
     blockquote
-      p.Meta.Meta--isParagraph.c-textLight
+      p.Meta.Meta--isParagraph.c-textLight.u-textCenter
         | Eventually, everything connects — people, ideas, objects. 
-        span.u-lg-lineBreak The quality of the connections is the key to quality per se.<br>— Charles Eames
+        span.u-lg-lineBreakCenter The quality of the connections is the key to quality per se.<br>— Charles Eames
 </template>
 
 <script>
