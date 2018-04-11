@@ -12,8 +12,8 @@ div
 
   .HeadingSpace.block--mb7
     div(v-if="page.note")
-      p.Text.c-textLight.m-b0 ∞
-      p.Text.c-textLight(v-html="page.note")
+      .Text.c-textLight.m-b0 ∞
+      .Text.c-textLight(v-html="page.note")
     hr
     .block--mt7(v-if="page.tweet")
       p.Meta.u-textCenter
@@ -46,10 +46,7 @@ export default {
         },
         // Twitter Card
         { name: "twitter:title", content: `${this.page.title}` },
-        {
-          name: "twitter:description",
-          content: `${this.page.title} – ${this.page.lede}`
-        },
+        { name: "twitter:description", content: `${this.page.lede}` },
         // {
         //   name: "twitter:image",
         //   content: `${this.page.heroImage}`
@@ -60,11 +57,11 @@ export default {
   },
   async asyncData({ app, route }) {
     const page = await app.$content("/posts").get(route.path);
-    const posts = await app.$content("/posts").getAll();
+    // const posts = await app.$content("/posts").getAll();
 
     return {
-      page,
-      posts
+      page
+      // posts
     };
   }
 };
