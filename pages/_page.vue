@@ -20,10 +20,10 @@ div
         a.u-linkClean.icon-targetblank(:href="page.tweet", target="_blank") 
           | Comments? Twitter
 
-  c-postslist(
-    v-if="posts.published"
-    :posts="posts"
-  )
+  //- c-postslist(
+  //-   v-if="posts.published"
+  //-   :posts="posts"
+  //- )
 </template>
 
 <script>
