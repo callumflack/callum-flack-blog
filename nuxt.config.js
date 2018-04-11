@@ -18,7 +18,7 @@ module.exports = {
       {
         name: "twitter:image",
         content:
-          "https://res.cloudinary.com/pw-img-cdn/image/upload/v1523345070/okok/favicon.png"
+          "https://res.cloudinary.com/pw-img-cdn/image/upload/v1523414125/okok/cfb-favicon.jpg"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
