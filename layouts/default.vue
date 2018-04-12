@@ -9,7 +9,7 @@
 
 <script>
 import Footer from "~/components/Footer.vue";
-import Menu from "~/components/Menu.vue";
+import Menu from "~/components/Menu1.vue";
 
 export default {
   components: {
@@ -30,7 +30,7 @@ export default {
 .Page {
   background-color: var(--c-bg);
   min-height: 100vh;
-  // padding-top: var(--fixedMenuHeight);
+  padding-top: var(--s-6);
   position: relative;
   z-index: 3;
 }

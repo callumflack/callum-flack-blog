@@ -58,8 +58,10 @@ module.exports = {
   },
   css: ["~/assets/styles/application.css"],
   plugins: [
-    /*{ src: "~/plugins/vue-slick", ssr: false },
-    "~/plugins/vue-fixed-header"*/
+    /*{ src: "~/plugins/vue-slick", ssr: false },*/
+    /*{ src: "~/plugins/vue-headroom", ssr: false },*/
+    /*"~/plugins/vue-fixed-header",*/
+    /*"~/plugins/vue-headroom",*/
     "~/plugins/vue-moment"
   ],
   modules: ["nuxtent", ["@nuxtjs/google-tag-manager", { id: "GTM-N5QW77G" }]],
