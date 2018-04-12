@@ -1,0 +1,14 @@
+---
+title: The art of taking offence — a Sembl
+lede: If you want to know how to make software that connects with and works for real people, there's no substitute for shaking hands with the invisible demons programmers wrestle with.
+published: true
+tweet: https://twitter.com/callumflack
+---
+
+My wife was offended when I ended yesterday's post with the mention of excrement hue. That immediately reminded me of two quotes I'd seen recently. So I made a "sembl doublequote" about the art of offence.
+
+@[MarkdownImage](post src="https://res.cloudinary.com/pw-img-cdn/image/upload/v1523506922/okok/sembl-art-of-offence.png")
+
+So yeah, sometimes being a little offensive is a good way to provoke insights. Laughter is, after all, a way we can poke at the unwritten rules of society.
+
+"Sembl doublequotes" are an idea from [Charles Cameron](http://zenpundit.com/?p=51353). By creating a visual match of connected ideas, we can turn off language and logic, and get to access intuition and pattern-matching, to finding new connections. And if you follow that link, you'll see how beautiful and fascinating they can be. I'll explain how I understand sembl doublequotes in a later post.

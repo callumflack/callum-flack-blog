@@ -3,7 +3,7 @@ title: Blogging is a scenius thing
 lede: I seemed to have started this blog by writing about why I've started a blog. To continue the theme, let's talk about why blogging is a scenius thing. 
 published: true
 note: <ol><li>This phrase is an "<a href="https://en.wikipedia.org/wiki/Ouroboros">ouroboros</a>"—it eats itself. An ouroboros is much fun! I hope to play with them a fair bit on this blog.</li></ol>
-tweet: https://twitter.com/callumflack
+tweet: https://twitter.com/callumflack/status/983945710260314113
 ---
 
 I seemed to have started this blog by writing about why I've started a blog.<span class="Fn">1</span> To continue the theme, I have another scrap to explore. But first, a quick recap of the previous two post's concepts:
