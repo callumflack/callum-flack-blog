@@ -32,18 +32,11 @@ h2,
 h3,
 .Heading,
 .Subheading {
-  font-family: var(--ff-text-regular), var(--ff-stack-serif);
+  font-family: var(--ff-text-medium), var(--ff-stack-serif);
   font-size: var(--fs-text);
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: var(--ft-text);
   line-height: var(--fl-text);
-}
-
-h2,
-h3,
-.Heading {
-  font-family: var(--ff-text-medium), var(--ff-stack-serif);
-  font-weight: 500;
 }
 
 .Title {
@@ -111,10 +104,10 @@ h4,
 h6,
 .HeadingSpace {
   &:not(:first-child) {
-    margin-top: calc(3 * var(--s-3));
+    margin-top: calc(2 * var(--s-3));
 
     @media (--md) {
-      margin-top: calc(3 * var(--s-3b));
+      margin-top: calc(2 * var(--s-3b));
     }
   }
 }
@@ -128,8 +121,13 @@ h6,
 }
 
 blockquote {
-  margin-top: calc(1.5 * var(--s-3));
-  margin-bottom: calc(1.5 * var(--s-3b));
+  margin-top: calc(1.25 * var(--s-3));
+  margin-bottom: calc(1.25 * var(--s-3));
+
+  @media (--md) {
+    margin-top: calc(1.25 * var(--s-3b));
+    margin-bottom: calc(1.25 * var(--s-3b));
+  }
 }
 
 * + .Button {
