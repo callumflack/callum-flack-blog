@@ -1,6 +1,6 @@
 ---
 title: The art of taking offence — a Sembl
-lede: If you want to know how to make software that connects with and works for real people, there's no substitute for shaking hands with the invisible demons programmers wrestle with.
+lede: My wife was offended when I ended yesterday's post with the mention of excrement hue. That immediately reminded me of two quotes I'd seen recently.
 published: true
 tweet: https://twitter.com/callumflack
 ---

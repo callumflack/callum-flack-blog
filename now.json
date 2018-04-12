@@ -1,6 +1,6 @@
 {
   "name": "callumflackblog",
-  "alias": ["callumflack.blog", "www.callumflack.blog"],
+  "alias": ["callumflack.blog"],
   "env": {
     "NODE_ENV": "production"
   }
