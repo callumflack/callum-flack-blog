@@ -1,6 +1,6 @@
 ---
 title: Love and theft
-lede: The hidden prerequisites of the creative process seen through the lens of record collecting.
+lede: The hidden prerequisites of the creative process inspired by my years of collecting strange and rare Black American Soul music.
 published: true
 tweet: https://twitter.com/callumflack
 ---
