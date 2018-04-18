@@ -1,0 +1,21 @@
+pre {
+}
+
+code {
+  background-color: color(var(--c-brand) lightness(94%));
+  display: block;
+  font-family: var(--ff-meta), var(--ff-stack-sans);
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  padding: 1em 1.5em 1.1em;
+
+  /* spacing */
+  margin-top: calc(1.25 * var(--s-3));
+  margin-bottom: calc(1.25 * var(--s-3));
+
+  @media (--md) {
+    margin-top: calc(1.25 * var(--s-3a));
+    margin-bottom: calc(1.25 * var(--s-3a));
+  }
+}

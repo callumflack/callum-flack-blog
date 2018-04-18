@@ -10,6 +10,7 @@
 @import "typography/list.css";
 @import "typography/link.css";
 @import "typography/type.css";
+@import "typography/code.css";
 
 @import "components/aspect-ratio.css";
 @import "components/button.css";
