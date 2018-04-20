@@ -11,11 +11,6 @@
   padding-left: calc(1 * var(--grid-gutter));
   padding-right: calc(1 * var(--grid-gutter));
   width: 100%;
-
-  @media (--sm) {
-    // padding-left: var(--grid-gutter);
-    // padding-right: var(--grid-gutter);
-  }
 }
 
 .container--sm {

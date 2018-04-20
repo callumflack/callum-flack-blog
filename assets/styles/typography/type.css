@@ -218,6 +218,7 @@ blockquote p em {
   display: table;
   /* resetting ems before applying font sizing: */
   font-size: calc((16 / (var(--fs-text-unit) * 16)) * var(--fs-text)) !important;
+  margin-top: var(--s-2);
 }
 
 /*

@@ -8,7 +8,7 @@ code {
   font-size: 0.9em;
   font-weight: 500;
   letter-spacing: 0.05em;
-  padding: 1em 1.5em 1.1em;
+  padding: 2em 1.5em 2.1em;
 
   /* spacing */
   margin-top: calc(1.25 * var(--s-3));
