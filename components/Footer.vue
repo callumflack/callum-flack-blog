@@ -3,8 +3,8 @@
     hr
     blockquote
       p.Meta.Meta--isParagraph.c-textLight.u-textCenter
-        | Eventually, everything connects — people, ideas, objects. 
-        span.u-lg-lineBreakCenter The quality of the connections is the key to quality per se.<br>— Charles Eames
+        | Do not define things. Rather define how they interact with other things. 
+        a(href="https://twitter.com/afoolswisdom/status/980290864969691138" target="_blank") — Sark
 </template>
 
 <script>
@@ -20,8 +20,14 @@ export default {
 <style lang="postcss">
 @import "../assets/styles/variables.css";
 
-.FooterRule {
-  // background-color: var(--c-text);
-  // height: 4px;
+.Footer blockquote {
+  @media (--md) {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
+
+.Footer a {
+  background-image: initial;
 }
 </style>
