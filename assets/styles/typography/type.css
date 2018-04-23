@@ -53,6 +53,10 @@ h3,
     color: var(--c-brand);
     text-decoration: none;
   }
+
+  @media (--md) {
+    // width: 75%;
+  }
 }
 
 .Meta {
