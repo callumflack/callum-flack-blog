@@ -1,6 +1,6 @@
 ---
-title: Creativity also demands bloody-mindedness
-lede: Making something new doesn't happen by magic. A series of compounding urges have to give way, an irresistible itch has to be scratched. And when it comes to actually starting, the easiest spark is theft. An accidental essay about the missing triggers in the creative process, inspired by my years of collecting strange and rare Black American Soul music.
+title: John Boyd's bloody-mindedness
+lede: Creativity may also demand another type of creative fuel—extreme disagreement, or bloody-mindedness. John Boyd's character is the perfect example.
 published: true
 tweet: https://twitter.com/callumflack
 ---
@@ -13,7 +13,7 @@ According to the book, Boyd was an extremely confrontational loud-mouth, and des
 
 His theories—Energy-Maneuverability theory, Destruction and Creation, and the OODA loop—are all now highly reputed across many domains, not just the military. But none would exist without Boyd’s extreme dedication to his own thoughts. He spent half a century standing his ground against the United States Military, perhaps the most rigid and demanding organisation in history.
 
-Sheer _bloody-mindedness_ was the prerequisite to all his theories.
+Sheer _bloody-mindedness_ was the prerequisite to all his theories. As Coram phrased it: "Without a skunk fight, life was boring."
 
 <!-- eccentric professor of the skies (Thiel) — the Mad Major -->
 
