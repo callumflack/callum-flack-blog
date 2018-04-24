@@ -19,21 +19,14 @@ div
       p.Meta.u-textCenter
         a.u-linkClean.icon-targetblank(:href="page.tweet", target="_blank") 
           | Comments? Twitter
-
-  //- c-postslist(
-  //-   v-if="posts.published"
-  //-   :posts="posts"
-  //- )
 </template>
 
 <script>
 import Post from "~/components/Post.vue";
-import PostsList from "~/components/PostsList.vue";
 
 export default {
   components: {
-    "c-post": Post,
-    "c-postslist": PostsList
+    "c-post": Post
   },
   head() {
     return {

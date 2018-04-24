@@ -10,7 +10,7 @@ Hi, I'm Callum. I'm drawn to wonder. I use this blog as a practice space to reas
 
 I'm a designer by trade. I focus on digital design, working fluidly across visual design, user experience, and code. You can read more about the services I provide at <a target="_blank" href="https://callumflack.design">Callum Flack Design</a>.
 
-I learned to code websites in 2010 so that I could gain more design control. This unexpectedly changed the way I viewed the world and transformed me into a constant learner.
+I learned to code websites in 2010 so that I could gain more design control. This unexpectedly changed the way I viewed the world and transformed me into a constant learner. I view this blog an extension of my learning.
 
 <!-- Rough consensus and maximal interestingness -->
 

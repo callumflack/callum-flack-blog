@@ -1,6 +1,6 @@
 ---
 title: The art of taking offence — a Sembl
-lede: My wife was offended when I ended yesterday's post with the mention of excrement hue. That immediately reminded me of two quotes I'd seen recently.
+lede: My wife was offended when I ended yesterday's post with the mention of excrement hue. That immediately reminded me of two quotes I'd seen recently. So I made a "sembl" of them.
 published: true
 tweet: https://twitter.com/callumflack/status/984289600486060032
 ---

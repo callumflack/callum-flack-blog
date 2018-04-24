@@ -3,6 +3,7 @@ pre {
 
 code {
   background-color: color(var(--c-brand) lightness(94%));
+  background-color: rgb(230, 238, 245);
   display: block;
   font-family: var(--ff-meta), var(--ff-stack-sans);
   font-size: 0.9em;

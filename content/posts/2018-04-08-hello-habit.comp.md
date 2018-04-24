@@ -1,6 +1,6 @@
 ---
 title: Hello, habit
-lede: On how I will stop being "goal perfect" to the point of writing paralysis and instead aim for a daily habit of writing by blogging. Keep drafting until I get somewhere. I'll make it a habits, not a goal.
+lede: On how I will stop being "goal perfect" to the point of writing paralysis and instead aim for a daily habit of writing by blogging. Keep drafting until I get somewhere. I'll make it a writing habit, not a writing goal.
 heroImage: /images/favicon.png
 published: true
 note: Updated April 10th, 2018

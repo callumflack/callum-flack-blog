@@ -1,6 +1,6 @@
 ---
 title: Creativity starts with love and theft
-lede: Making something new doesn't happen by magic. A series of compounding urges have to give way, an irresistible itch has to be scratched. And when it comes to actually starting, the easiest spark is theft. An accidental essay about the missing triggers in the creative process, inspired by my years of collecting strange and rare Black American Soul music.
+lede: Making something new doesn't happen by magic. An irresistible itch has to be scratched, love has to be found. And when it comes to actually starting, the easiest spark is theft. An accidental essay about the missing triggers in the creative process, inspired by my years of collecting strange and rare Black American Soul music.
 published: true
 tweet: https://twitter.com/callumflack/status/987293174526656512
 ---

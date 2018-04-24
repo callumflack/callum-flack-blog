@@ -1,6 +1,6 @@
 ---
 title: Writing without worry
-lede: How do you allow yourself to cultivate a habit? How does one just be curious without worrying about turning shit into gold? You have to be OK with writing some “curious shit”!
+lede: How do you allow yourself to cultivate a habit? How does one just be curious without worrying about turning shit into gold? Define gold anyway? The surest method to cultivating a writing habit is to be OK writing “curious shit” in an oblique manners.
 published: true
 tweet: https://twitter.com/callumflack/status/983612094900682753
 ---

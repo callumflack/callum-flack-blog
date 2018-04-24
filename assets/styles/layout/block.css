@@ -121,6 +121,20 @@
   
  */
 
+.block--my7 {
+  margin-top: var(--s-5);
+  margin-bottom: var(--s-5);
+
+  @media (--md) {
+    margin-top: var(--s-6);
+    margin-bottom: var(--s-6);
+  }
+  @media (--lg) {
+    margin-top: var(--s-7);
+    margin-bottom: var(--s-7);
+  }
+}
+
 .block--my6 {
   margin-top: var(--s-4);
   margin-bottom: var(--s-4);
