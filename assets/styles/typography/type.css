@@ -39,6 +39,11 @@ h3,
   font-weight: 600;
   letter-spacing: var(--ft-text);
   line-height: var(--fl-text);
+
+  & em {
+    font-family: var(--ff-text-medium-italic), var(--ff-stack-serif);
+    font-style: italic;
+  }
 }
 
 .Title,

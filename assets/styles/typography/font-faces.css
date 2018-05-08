@@ -23,6 +23,12 @@
   font-style: normal;
 }
 @font-face {
+  font-family: var(--ff-text-medium-italic);
+  src: url("~static/fonts/TiemposText-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
   font-family: var(--ff-text-bold);
   src: url("~static/fonts/TiemposText-Bold.woff") format("woff");
   font-weight: 700;
