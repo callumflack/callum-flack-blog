@@ -10,12 +10,12 @@ div
     :tweet="page.tweet"
   )
 
-  .HeadingSpace.block--mb7
-    div(v-if="page.note")
-      .Text.c-textLight.m-b0 ∞
-      .Text.c-textLight(v-html="page.note")
-    hr
-    .block--mt7(v-if="page.tweet")
+  .HeadingSpace.block--mb7(v-if="page.note")
+    .Text.c-textLight.m-b0 ∞
+    .Text.c-textLight(v-html="page.note")
+    //- div(v-if="page.note")
+    //- hr
+    //- .block--mt7(v-if="page.tweet")
       p.Meta.u-textCenter
         a.u-linkClean.icon-targetblank(:href="page.tweet", target="_blank") 
           | Comments? Twitter

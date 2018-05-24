@@ -2,7 +2,7 @@
 div
   c-post(
     v-if="post.published"
-    v-for="post in posts.slice(0, 1)"
+    v-for="post in posts.slice(0, 2)"
     :key="post.permalink"
     :link="post.permalink"
     :image="post.heroImage"
@@ -18,18 +18,17 @@ div
     .block--my7
       p.Meta.Meta--isParagraph.c-textLight.u-textCenter.m-xAuto.u-size3of4
         span.u-block
-          | This blog is 
-          nuxt-link.u-linkClean(to="/about") Callum's place
-          | &nbsp;to think about the things inbetween. 
-          a.u-linkClean.icon-targetblank(href="https://twitter.com/callumflack", target="_blank") Comments? Twitter
+          nuxt-link.u-linkClean(to="/about") Callum Flack
+          | &nbsp;is writing about the things inbetween. Here's the most recent posts:
+          //- a.u-linkClean.icon-targetblank(href="https://twitter.com/callumflack", target="_blank") Comments? Twitter
         //- span.u-block * * *
         //- span.u-block.m-t1 Here's the most recent posts:
-        span.u-block Here's the most recent posts:
+        //- span.u-block Here's the most recent posts:
     hr
 
   c-postexcerpt(
     v-if="post.published"
-    v-for="post in posts.slice(1)"
+    v-for="post in posts.slice(2)"
     :key="post.title"
     :link="post.permalink"
     :image="post.thumbImage"

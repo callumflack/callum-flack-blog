@@ -53,10 +53,10 @@ export default {
       scrollState: 0,
       // Menu list
       menuLinks: [
-        // {
-        //   label: "Archive",
-        //   link: "/blog"
-        // },
+        {
+          label: "Archive",
+          link: "/archive"
+        },
         {
           label: "About",
           link: "/about"

@@ -37,6 +37,6 @@ export default {
 }
 
 .TimeMargin {
-  margin-bottom: var(--s-3a);
+  margin-bottom: var(--s-3);
 }
 </style>

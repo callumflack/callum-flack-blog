@@ -1,30 +1,28 @@
 <template lang="pug">
-.block--pb7
-  header(role="banner")
-    c-pageheading(
-      lede="How to create digital experiences that resonate."
-    )
+div
   main(role="main")
-    .container
-      c-post(
-        v-for="post in posts"
-        :key="post.heading"
-        :link="post.permalink"
-        :image="post.thumbImage"
-        :heading="post.heading"
-        :lede="post.lede"
-        :date="post.date"
-      )
+    c-postexcerpt(
+      v-if="post.published"
+      v-for="post in posts"
+      :key="post.title"
+      :link="post.permalink"
+      :image="post.thumbImage"
+      :title="post.title"
+      :lede="post.lede"
+      :date="post.date"
+    )
 </template>
 
 <script>
 import PageHeading from "~/components/PageHeading.vue";
+import PostExcerpt from "~/components/PostExcerpt.vue";
 import Post from "~/components/Post.vue";
 
 export default {
   name: "blog",
   components: {
     "c-pageheading": PageHeading,
+    "c-postexcerpt": PostExcerpt,
     "c-post": Post
   },
   head() {

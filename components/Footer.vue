@@ -1,5 +1,5 @@
 <template lang="pug">
-  footer.Footer.block--mt7(role="contentinfo")
+  footer.Footer.block--mt5(role="contentinfo")
     hr
     blockquote
       p.Meta.Meta--isParagraph.c-textLight.u-textCenter

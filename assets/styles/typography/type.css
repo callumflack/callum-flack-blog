@@ -67,7 +67,7 @@ h3,
 }
 
 .Title {
-  font-size: calc(1.75em * var(--fs-text-unit));
+  font-size: calc(2em * var(--fs-text-unit));
 }
 
 .Subtitle {
