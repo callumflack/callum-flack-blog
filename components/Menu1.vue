@@ -1,15 +1,14 @@
 <template lang="pug">
   nav.FixedMenu(:class="navBar")
     .container
-      //- .Nav.u-flex.u-flexJustifyBetween
-      .Nav.u-flex.u-flexJustifyBetween
+      .Nav.u-flex.u-flexJustifyCenter
         div
           c-menulink.Meta(
             label="CF/b"
             link="/"
             exact
           )
-        //- .Separator • 
+        .Separator • 
         div
           c-menulink.Meta(
             v-for="item in menuLinks"
@@ -137,5 +136,10 @@ export default {
   border-color: transparent; */
   padding-top: var(--s-4);
   padding-bottom: var(--s-4);
+}
+
+.Separator {
+  margin-left: var(--s-3b);
+  margin-right: var(--s-3b);
 }
 </style>

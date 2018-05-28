@@ -1,9 +1,9 @@
 <template lang="pug">
   article.Article
-    header.block--pb5(role="banner")
-      h1.Title
+    header.block--pb5.u-lg-size5of6.m-xAuto(role="banner")
+      h1.Title.u-textCenter
         nuxt-link(:to="link") {{ title }}
-      time.u-block.Meta.c-textLight(:date-time="date") {{ date | moment("MMMM Do, YYYY") }}
+      time.u-block.u-textCenter.Meta.c-textLight(:date-time="date") {{ date | moment("MMMM Do, YYYY") }}
     main(role="main")
       no-ssr
         nuxtent-body(:body="body")
