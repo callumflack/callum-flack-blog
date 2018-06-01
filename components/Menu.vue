@@ -1,15 +1,14 @@
 <template lang="pug">
   nav.FixedMenu(:class="navBar")
     .container
-      //- .Nav.u-flex.u-flexJustifyBetween
-      .Nav.u-flex.u-flexJustifyBetween
+      .Nav.u-flex.u-flexJustifyCenter
         div
           c-menulink.Meta(
             label="CF/b"
             link="/"
             exact
           )
-        //- .Separator • 
+        .Separator • 
         div
           c-menulink.Meta(
             v-for="item in menuLinks"
@@ -53,10 +52,10 @@ export default {
       scrollState: 0,
       // Menu list
       menuLinks: [
-        // {
-        //   label: "Archive",
-        //   link: "/blog"
-        // },
+        {
+          label: "Archive",
+          link: "/archive"
+        },
         {
           label: "About",
           link: "/about"
@@ -73,18 +72,12 @@ export default {
       // Current scroll position
       const currentScroll = this.scrollTop();
 
-      // Do nothing if scroll position is above the window
-      // Handles iOS bounce scrolling
-      if (this.scrollState === 0) {
+      if (this.scrollTop() === 0) {
         home();
-      }
-
-      if (currentScroll > this.scrollState) {
+      } else if (currentScroll > this.scrollState) {
         down();
-      } else if (currentScroll < this.scrollState) {
-        up();
       } else {
-        home();
+        up();
       }
 
       // Set previous scroll position
@@ -97,7 +90,6 @@ export default {
     // Called when scroll is in initial position
     scrollHome() {
       this.navBar.collapse = false;
-      this.navBar.open = false;
     },
     // Called when scrolled down
     scrollDown() {
@@ -128,60 +120,23 @@ export default {
   background-color: var(--c-bg);
   position: fixed;
   top: 0;
+  transition-duration: 0.6s;
   width: 100%;
   z-index: 999;
 }
 
-.FixedMenu {
-  /* background-color: var(--c-text); */
-
-  & .link {
-    /* color: var(--c-bg); */
-  }
-}
-
 .collapse {
-  animation: collapse 0.5s ease forwards;
-}
-
-.open {
-  animation: open 0.5s ease forwards;
-  /* box-shadow: 0 9px 25px 0 rgba(0, 0, 0, 0.25), 0 19px 70px 0 rgba(0, 0, 0, 0.1); */
-  /* box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15); */
-}
-
-@keyframes collapse {
-  from {
-    opacity: 1;
-    top: 0;
-  }
-  to {
-    opacity: 0;
-    top: calc(-1 * var(--fixedMenuHeight));
-  }
-}
-
-@keyframes open {
-  from {
-    opacity: 0;
-    top: calc(-1 * var(--fixedMenuHeight));
-  }
-  to {
-    opacity: 1;
-    top: 0;
-  }
+  transform: translateY(-100%);
+  transition-duration: 0.6s;
 }
 
 .Nav {
-  /* border-bottom: 0.15rem solid var(--c-text);
-  border-bottom: 1px solid var(--c-text);
-  border-color: transparent; */
   padding-top: var(--s-4);
   padding-bottom: var(--s-4);
 }
 
 .Separator {
-  color: var(--c-bg);
-  margin: 0 var(--s-3);
+  margin-left: var(--s-3b);
+  margin-right: var(--s-3b);
 }
 </style>
