@@ -16,8 +16,9 @@
     "@nuxtjs/axios": "4.3.1",
     "@nuxtjs/google-tag-manager": "1.1.0",
     "moment": "^2.22.0",
-    "nuxt": "1.0.0",
+    "nuxt": "^1.4.0",
     "nuxtent": "1.4.1",
+    "postcss-import-resolver": "^1.1.0",
     "vue-fixed-header": "^1.0.1",
     "vue-headroom": "^0.8.1",
     "vue-moment": "^3.2.0"
@@ -33,6 +34,7 @@
     "node-sass": "^4.7.2",
     "pug": "^2.0.0-beta6",
     "pug-loader": "^2.3.0",
+    "pug-plain-loader": "^1.0.0",
     "sass-loader": "^6.0.6"
   }
 }
