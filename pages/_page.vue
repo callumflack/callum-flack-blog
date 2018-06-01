@@ -6,6 +6,7 @@ div
     :title="page.title"
     :body="page.body"
     :date="page.date"
+    :readingtime="page.readingtime"
     :note="page.note"
     :tweet="page.tweet"
   )

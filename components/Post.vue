@@ -3,7 +3,11 @@
     header.block--pb5.u-lg-size5of6.m-xAuto(role="banner")
       h1.Title.u-textCenter
         nuxt-link(:to="link") {{ title }}
-      time.u-block.u-textCenter.Meta.c-textLight(:date-time="date") {{ date | moment("MMMM Do, YYYY") }}
+      .u-block.u-textCenter
+        time.Meta.c-textLight(:date-time="date") {{ date | moment("MMMM Do, YYYY") }}
+        span(v-if="readingtime")
+          span.MetaSeparator.c-textLight • 
+          span.Meta.c-textLight {{ readingtime }} minutes
     main(role="main")
       no-ssr
         nuxtent-body(:body="body")
@@ -29,6 +33,7 @@ export default {
     lede: String,
     body: Object,
     date: String,
+    readingtime: Number,
     published: Boolean,
     note: String,
     tweet: String
@@ -46,4 +51,9 @@ export default {
 
 <style scoped>
 @import "../assets/styles/variables.css";
+
+.MetaSeparator {
+  margin-left: var(--s-2);
+  margin-right: var(--s-2);
+}
 </style>

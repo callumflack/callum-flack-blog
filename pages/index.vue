@@ -9,6 +9,7 @@ div
     :title="post.title"
     :lede="post.lede"
     :body="post.body"
+    :readingtime="post.readingtime"
     :date="post.date"
     :published="post.published"
   )
@@ -55,8 +56,7 @@ export default {
         {
           hid: "description",
           name: "description",
-          content:
-            "Selected writing by Callum Flack about digital design, user experience & code"
+          content: "Some writing by Callum Flack about stuff & things"
         }
       ]
     };
@@ -66,7 +66,7 @@ export default {
       posts: []
     };
   },
-  async asyncData({ app, route }) {
+  async asyncData({ app }) {
     const posts = await app.$content("/posts").getAll();
 
     return {
