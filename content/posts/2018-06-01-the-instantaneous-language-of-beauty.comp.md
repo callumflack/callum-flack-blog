@@ -1,11 +1,12 @@
 ---
 title: The instantaneous language of beauty
-lede: Blah… 
+lede: We use the pre-verbal language of asethetics to sense our environment before we can think. As much as we repel from danger, we're drawn to seamless, cohesive symmetry. In other words, we seek beauty.
+readingtime: 5
 published: true
 tweet: https://twitter.com/callumflack
 ---
 
-@[MarkdownImage](post local src="/images/aesthetics-nembrotha-aurea.jpg")
+@[LazyImage](post src="https://res.cloudinary.com/pw-img-cdn/image/upload/v1527842531/okok/aesthetics-nembrotha-aurea.jpg")
 
 A shadow passes just outside our field of vision. But somehow we know it happened because we feel tense. Some sense has triggered our awareness, a sense that isn't logical, a sense that we instead _feel_.
 
@@ -15,7 +16,7 @@ This happens quickly. At a glance, we notice and assess the multitude of pattern
 
 Like a shadow felt but not consciously seen, we're hardly aware that the language of aesthetics is our first mode of understanding the world.
 
-@[MarkdownImage](post local src="/images/aesthetics-snake.jpg")
+@[LazyImage](post src="https://res.cloudinary.com/pw-img-cdn/image/upload/v1527842533/okok/aesthetics-snake.jpg")
 
 # Danger and beauty
 
@@ -29,7 +30,7 @@ We are _drawn to beauty_ and _repelled by danger_.
 
 Danger and beauty are the two extremes on the spectrum of the language of aesthetics. When we sense danger, we do not think. Instead we react to avoid the situation. Beauty, however, invites us to think. To find beauty is to find information we can use in our favour.
 
-@[MarkdownImage](post local src="/images/aesthetics-siphonophore-apolemia.jpg")
+@[LazyImage](post src="https://res.cloudinary.com/pw-img-cdn/image/upload/v1527842535/okok/aesthetics-siphonophore-apolemia.jpg")
 
 <!-- caption="A Blue-ringed Octopus displays blue iridescent rings across their yellow-colored body when disturbed, hunting or mating. When calm, it displays an overall yellowish-beige colouration without any visible blue rings." -->
 
@@ -43,7 +44,7 @@ As an adrenalised response is the defense for a target animal, a beautiful invit
 
 _Beauty invites participation and attention._
 
-@[MarkdownImage](post local src="/images/aesthetics-blackberries.jpg")
+@[LazyImage](post src="https://res.cloudinary.com/pw-img-cdn/image/upload/v1527842534/okok/aesthetics-blackberries.jpg")
 
 # Beauty is opportunity
 
@@ -61,7 +62,7 @@ In this way, a spreadsheet can absolutely contain beauty.
 
 _Humans naturally seek beauty in order to make use of it._
 
-@[MarkdownImage](post local src="/images/aesthetics-instapumps.jpg")
+@[LazyImage](post src="https://res.cloudinary.com/pw-img-cdn/image/upload/v1527842539/okok/aesthetics-instapumps.jpg")
 
 # Irrational beauty matters more than we dare admit
 
@@ -73,12 +74,14 @@ Irrational beauty initiates thinking. I can tell you to think of the brilliantly
 
 <!--The most profitable company in history is adamant the gaps between the building-high glass panels encasing it's 461 metre diameter be "no greater than 1/32 inch (0.8mm)". Apple's value is due to a deep understanding of how beauty -->
 
-By accessing the language of aesthetics, we know good from bad in an instant. Our innate sense for beauty draws us towards opportune information, with which we find ways to leverage our environment. But we  only begin inspecting, interpreting, connecting and collecting information when beauty tells us it _feels right_.
+Faced with a decision between two objects, we'll choose the one we developed an unaware bias for moments ago. By accessing the language of aesthetics, we know good from bad in an instant. Our innate sense for beauty draws us towards opportune information, with which we find ways to leverage our environment. But we only begin inspecting, interpreting, connecting and collecting information when beauty tells us it _feels right_.
 
-<!-- The aesthetics of beauty is what draws us towards opportune information. …, first by feeling and then by conceptualising… And then we start to collect and connect exploitable knowledge to  by being drawn to beautiful symmetry. --> 
+<!-- The aesthetics of beauty is what draws us towards opportune information. …, first by feeling and then by conceptualising… And then we start to collect and connect exploitable knowledge to  by being drawn to beautiful symmetry. -->
 
 <!--Words mostly do not convey the feelings of beauty. Seeing—and sensing—is much easier than explaining.-->
 
 <!--This is why design matters. Given Design, at it's best, uses the language of aesthetics to preempt verbal language and communicate much faster than any reason can.-->
 
-When you're struggling to invite attention or create participation, it's probably because people sense an incongruence underneath. remember that everyone responds powerfully and automatically to the comforting feeling of beauty. It's quite irrational.
+## Beauty and commerce
+
+Every one of us post-rationalises our decisions as it suits us. The reasons for our choices are deeper than we think. While they won't tell you, people will sense incongruence and walk away. Or they will notice seamless and cohesive symmetry in a fraction of a second, and begin inspecting. As we move toward "peak attention", it pays not to underestimate how powerful, calming and attentive the feeling of beauty can be.
