@@ -2,13 +2,10 @@
 div
   c-post(
     :link="page.permalink"
-    :image="page.heroImage"
     :title="page.title"
-    :body="page.body"
     :date="page.date"
     :readingtime="page.readingtime"
-    :note="page.note"
-    :tweet="page.tweet"
+    :body="page.body"
   )
 
   .HeadingSpace.block--mb7(v-if="page.note")
@@ -28,6 +25,11 @@ import Post from "~/components/Post.vue";
 export default {
   components: {
     "c-post": Post
+  },
+  props: {
+    updated: String,
+    note: String,
+    tweet: String
   },
   head() {
     return {

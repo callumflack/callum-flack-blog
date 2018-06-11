@@ -14,29 +14,21 @@
 </template>
 
 <script>
-import PageHeading from "~/components/PageHeading.vue";
-// https://github.com/brockpetrie/vue-moment
 import moment from "vue-moment";
-// import moment from 'moment';
 
 export default {
   name: "post",
   components: {
-    "c-pageheading": PageHeading,
     moment
   },
   props: {
-    post: Boolean,
+    published: Boolean,
     link: String,
-    heroImage: String,
     title: String,
     lede: String,
-    body: Object,
     date: String,
     readingtime: Number,
-    published: Boolean,
-    note: String,
-    tweet: String
+    body: Object
   }
   // https://forum.vuejs.org/t/how-to-format-date-for-display/3586/4
   // filters: {
